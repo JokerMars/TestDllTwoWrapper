@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using DllWrapper;
 
 namespace TestDllTwoWrapper
 {
@@ -9,6 +10,7 @@ namespace TestDllTwoWrapper
     {
         static void Main(string[] args)
         {
+            Hello.SayHello();
         }
     }
 }
